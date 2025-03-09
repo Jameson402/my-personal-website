@@ -1,0 +1,90 @@
+body {
+    background: rgba(244, 244, 246, 0.463);
+    font-family: Andale Mono, monospace;  
+  }
+  img {
+    width: 300px;  
+    height: auto;  
+  }
+  h1, h2 {
+    text-align: center;
+  }
+  .banner {
+    background-color: #5eb2de;  
+    color: white;
+    padding: 20px;
+    text-align: center; 
+    width: 100%; 
+    box-sizing: border-box;
+    } 
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.button-link {
+  text-align: center; 
+  display: inline-block;
+  text-decoration: none; 
+}
+
+.icon-btn {
+  width: 15px;
+  height: 15px;
+  margin-bottom: 5px;
+  transition: transform 0.3s ease;
+}
+
+.icon-btn:hover {
+  transform: scale(1.1); 
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.lengthen-box {
+  height: 400px; 
+  background: rgba(244, 244, 246, 0.463); 
+  margin: 20px -20px;
+}
+html {
+  scroll-behavior: smooth;
+}
+.scroll-btn button {
+  padding: 10px 10px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.scroll-btn button:hover {
+  background-color: #0056b3;
+}
+.new-section {
+  margin-top: 50px;
+  padding: 40px;
+  background: rgba(244, 244, 246, 0.463);
+  text-align: center;
+}
+.image-container {
+  display: fixed;   
+  justify-content: center;
+  align-items: right;
+  width: 100%;               
+  margin-top: 20px;   
+}
+.image-container img {
+  max-width: 50%; 
+  height: auto;  
+}
+
